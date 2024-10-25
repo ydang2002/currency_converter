@@ -4,6 +4,7 @@ import com.example.currencyconverter.R
 import com.example.currencyconverter.adapter.CurrencyItem
 
 object CurrencyData {
+    // List of currency items with their respective currency codes and flag resource IDs
     val currencyList = listOf(
         CurrencyItem("ALL", R.drawable.all),
         CurrencyItem("AED", R.drawable.default_image),

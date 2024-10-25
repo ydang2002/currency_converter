@@ -35,8 +35,10 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
+        // Get the list of currencies
         val currencyList = CurrencyData.currencyList
 
+        // Set up the spinner adapters
         val adapter = CustomSpinnerAdapter(this, currencyList)
         binding.spFromCurrency.adapter = adapter
         binding.spToCurrency.adapter = adapter
@@ -50,6 +52,7 @@ class MainActivity : AppCompatActivity() {
             val fromCurrencyItem = binding.spFromCurrency.selectedItem as CurrencyItem
             val toCurrencyItem = binding.spToCurrency.selectedItem as CurrencyItem
 
+            // Trigger the conversion process
             viewModel.convert(
                 binding.etFrom.text.toString(),
                 fromCurrencyItem.currencyCode,

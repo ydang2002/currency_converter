@@ -6,6 +6,7 @@ import android.net.NetworkCapabilities
 
 object NetworkUtils {
     fun isNetworkAvailable(context: Context): Boolean {
+        // Get the connectivity manager from the system services
         val connectivityManager =
             context.getSystemService(Context.CONNECTIVITY_SERVICE) as ConnectivityManager
         val network = connectivityManager.activeNetwork ?: return false

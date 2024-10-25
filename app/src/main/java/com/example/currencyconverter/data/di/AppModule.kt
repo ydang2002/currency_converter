@@ -27,10 +27,12 @@ object AppModule {
         .build()
         .create(CurrencyApi::class.java)
 
+    // Provides a singleton instance of MainRepository
     @Singleton
     @Provides
     fun provideMainRepository(api: CurrencyApi): MainRepository = DefaultMainRepository(api)
 
+    // Provides a singleton instance of DispatcherProvider
     @Singleton
     @Provides
     fun provideDispatchers(): DispatcherProvider = object : DispatcherProvider {

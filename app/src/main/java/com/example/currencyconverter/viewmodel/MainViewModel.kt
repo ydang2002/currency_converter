@@ -19,6 +19,7 @@ class MainViewModel @Inject constructor(
     private val dispatchers: DispatcherProvider
 ) : ViewModel() {
 
+    // Sealed class representing different states of currency conversion events
     sealed class CurrencyEvent {
         class Success(val resultText: String) : CurrencyEvent()
         class Failure(val errorText: String) : CurrencyEvent()
@@ -26,7 +27,9 @@ class MainViewModel @Inject constructor(
         object Empty : CurrencyEvent()
     }
 
+    // MutableStateFlow to hold the current state of currency conversion
     private val _conversion = MutableStateFlow<CurrencyEvent>(CurrencyEvent.Empty)
+    // Publicly exposed StateFlow to observe the conversion state
     val conversion: StateFlow<CurrencyEvent> = _conversion
 
     fun convert(
@@ -50,9 +53,11 @@ class MainViewModel @Inject constructor(
                     val rates = ratesResponse.data!!.rates
                     val fromRate = rates[fromCurrency]
                     val toRate = rates[toCurrency]
+                    // Check if rates are available for the given currencies
                     if (fromRate == null || toRate == null) {
                         _conversion.value = CurrencyEvent.Failure("Unexpected error")
                     } else {
+                        // Calculate the converted currency amount
                         val convertedCurrency = round((fromAmount / fromRate) * toRate * 100) / 100
                         _conversion.value = CurrencyEvent.Success(
                             "$fromAmount $fromCurrency = $convertedCurrency $toCurrency"

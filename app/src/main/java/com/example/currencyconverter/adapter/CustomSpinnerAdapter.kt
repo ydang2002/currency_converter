@@ -18,6 +18,7 @@ class CustomSpinnerAdapter(context: Context, private val currencyList: List<Curr
         return createViewFromResource(position, convertView, parent)
     }
 
+    // Creates or reuses a view for a currency item at the specified position
     private fun createViewFromResource(position: Int, convertView: View?, parent: ViewGroup): View {
         val binding: SpinnerItemBinding
         if (convertView == null) {

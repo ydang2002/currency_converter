@@ -5,6 +5,7 @@ import com.example.currencyconverter.data.models.CurrencyResponse
 import com.example.currencyconverter.util.Resource
 import javax.inject.Inject
 
+// Repository implementation for fetching currency rates
 class DefaultMainRepository @Inject constructor(
     private val api: CurrencyApi
 ) : MainRepository {

@@ -1,0 +1,45 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:height="24dp" android:viewportHeight="180" android:viewportWidth="180" android:width="24dp">
+      
+    <path android:fillColor="#f1453d" android:fillType="evenOdd" android:pathData="m174.87,120h-169.75c12.35,34.96 45.69,60 84.88,60 39.19,0 72.52,-25.04 84.88,-60z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m5.12,120h169.75c3.32,-9.38 5.12,-19.48 5.12,-30s-1.8,-20.62 -5.12,-30l-169.75,0c-3.32,9.38 -5.12,19.48 -5.12,30s1.8,20.62 5.12,30z"/>
+      
+    <path android:fillColor="#4eab53" android:fillType="evenOdd" android:pathData="m174.87,60c-12.35,-34.96 -45.69,-60 -84.88,-60 -39.19,0 -72.52,25.04 -84.88,60z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m16,122l0,2l-5,-0l0,3l3,-0l0,-1l-2,-0l0,-1l4,-0l0,2l5,-0l0,-5l-1,-0l0,4l-1,-0l0,-4l-1,-0l0,4l-1,-0l0,-4zM6.4,121.9 L6.83,122.9 15,122.9l0,-1zM22,124l0,3l1,-0l0,-2l3,-0l0,2l5,-0l0,-3l-2.98,-0l0,1l1.98,-0l0,1l-3,-0l0,-2zM37,122l0,2l-5,-0l0,3l3,-0l0,-1l-2,-0l0,-1l4,-0l0,2l5,-0l0,-5l-1,-0l0,4l-1,-0l0,-4l-1,-0l0,4l-1,-0l0,-4zM22,121.9l0,1l14,-0l0,-1zM43,124l0,3l1,-0l0,-2l3,-0l0,2l5,-0l0,-3l-2.98,-0l0,1l1.98,-0l0,1l-3,-0l0,-2zM58,122l0,2l-5,-0l0,3l3,-0l0,-1l-2,-0l0,-1l4,-0l0,2l5,-0l0,-5l-1,-0l0,4l-1,-0l0,-4l-1,-0l0,4l-1,-0l0,-4zM43,121.9l0,1l14,-0l0,-1zM64,124l0,3l1,-0l0,-2l3,-0l0,2l5,-0l0,-3l-2.98,-0l0,1l1.98,-0l0,1l-3,-0l0,-2zM79,122l0,2l-5,-0l0,3l3,-0l0,-1l-2,-0l0,-1l4,-0l0,2l5,-0l0,-5l-1,-0l0,4l-1,-0l0,-4l-1,-0l0,4l-1,-0l0,-4zM64,121.9l0,1l14,-0l0,-1zM85,124l0,3l1,-0l0,-2l3,-0l0,2l5,-0l0,-3l-2.98,-0l0,1l1.98,-0l0,1l-3,-0l0,-2zM100,122l0,2l-5,-0l0,3l3,-0l0,-1l-2,-0l0,-1l4,-0l0,2l5,-0l0,-5l-1,-0l0,4l-1,-0l0,-4l-1,-0l0,4l-1,-0l0,-4zM85,121.9l0,1l14,-0l0,-1zM106,124l0,3l1,-0l0,-2l3,-0l0,2l5,-0l0,-3l-2.98,-0l0,1l1.98,-0l0,1l-3,-0l0,-2zM121,122l0,2l-5,-0l0,3l3,-0l0,-1l-2,-0l0,-1l4,-0l0,2l5,-0l0,-5l-1,-0l0,4l-1,-0l0,-4l-1,-0l0,4l-1,-0l0,-4zM106,121.9l0,1l14,-0l0,-1zM127,124l0,3l1,-0l0,-2l3,-0l0,2l5,-0l0,-3l-2.98,-0l0,1l1.98,-0l0,1l-3,-0l0,-2zM142,122l0,2l-5,-0l0,3l3,-0l0,-1l-2,-0l0,-1l4,-0l0,2l5,-0l0,-5l-1,-0l0,4l-1,-0l0,-4l-1,-0l0,4l-1,-0l0,-4zM127,121.9l0,1l14,-0l0,-1zM148,124l0,3l1,-0l0,-2l3,-0l0,2l5,-0l0,-3l-2.98,-0l0,1l1.98,-0l0,1l-3,-0l0,-2zM163,122l0,2l-5,-0l0,3l3,-0l0,-1l-2,-0l0,-1l4,-0l0,2l5,-0l0,-5l-1,-0l0,4l-1,-0l0,-4l-1,-0l0,4l-1,-0l0,-4zM148,121.9l0,1l14,-0l0,-1zM169,124l0,3l1,-0l0,-2l2.28,-0l0.47,-1zM169,121.9l0,1l3.98,-0 0.44,-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m24,126h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m45,126h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m66,126h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m87,126h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m108,126h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m129,126h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m150,126h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m5.82,121 l-0.34,-1h4.52v1zM11,121v-1h10v1zM22,121v-1h9v1zM32,121v-1h10v1zM43,121v-1h9v1zM53,121v-1h10v1zM64,121v-1h9v1zM74,121v-1h10v1zM85,121v-1h9v1zM95,121v-1h10v1zM106,121v-1h9v1zM116,121v-1h10v1zM127,121v-1h9v1zM137,121v-1h10v1zM148,121v-1h9v1zM158,121v-1h10v1zM169,121v-1h4.75l-0.53,1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m24,57h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m45,57h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m66,57h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m87,57h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m108,57h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m129,57h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m150,57h1v1h-1z"/>
+      
+    <path android:fillColor="#fff" android:fillType="evenOdd" android:pathData="m6.83,58h3.17v-3h-1.95l-0.48,1h1.43v1h-1.84zM16,53v2h-5v3h3v-1h-2v-1h4v2h5v-5h-1v4h-1v-4h-1v4h-1v-4zM8.96,52.9 L8.45,53.9h6.55v-1zM6.71,59 L6.28,60h3.72v-1zM11,59v1h10v-1zM22,55v3h1v-2h3v2h5v-3h-2.98v1h1.98v1h-3v-2zM37,53v2h-5v3h3v-1h-2v-1h4v2h5v-5h-1v4h-1v-4h-1v4h-1v-4zM22,52.9v1h14v-1zM22,59v1h9v-1zM32,59v1h10v-1zM43,55v3h1v-2h3v2h5v-3h-2.98v1h1.98v1h-3v-2zM58,53v2h-5v3h3v-1h-2v-1h4v2h5v-5h-1v4h-1v-4h-1v4h-1v-4zM43,52.9v1h14v-1zM43,59v1h9v-1zM53,59v1h10v-1zM64,55v3h1v-2h3v2h5v-3h-2.98v1h1.98v1h-3v-2zM79,53v2h-5v3h3v-1h-2v-1h4v2h5v-5h-1v4h-1v-4h-1v4h-1v-4zM64,52.9v1h14v-1zM64,59v1h9v-1zM74,59v1h10v-1zM85,55v3h1v-2h3v2h5v-3h-2.98v1h1.98v1h-3v-2zM100,53v2h-5v3h3v-1h-2v-1h4v2h5v-5h-1v4h-1v-4h-1v4h-1v-4zM85,52.9v1h14v-1zM85,59v1h9v-1zM95,59v1h10v-1zM106,55v3h1v-2h3v2h5v-3h-2.98v1h1.98v1h-3v-2zM121,53v2h-5v3h3v-1h-2v-1h4v2h5v-5h-1v4h-1v-4h-1v4h-1v-4zM106,52.9v1h14v-1zM106,59v1h9v-1zM116,59v1h10v-1zM127,55v3h1v-2h3v2h5v-3h-2.98v1h1.98v1h-3v-2zM142,53v2h-5v3h3v-1h-2v-1h4v2h5v-5h-1v4h-1v-4h-1v4h-1v-4zM127,52.9v1h14v-1zM127,59v1h9v-1zM137,59v1h10v-1zM148,55v3h1v-2h3v2h5v-3h-2.98v1h1.98v1h-3v-2zM163,53v2h-5v3h3v-1h-2v-1h4v2h5v-5h-1v4h-1v-4h-1v4h-1v-4zM148,52.9v1h14v-1zM148,59v1h9v-1zM158,59v1h10v-1zM169,55v3h1v-2h2.18l-0.36,-1zM169,52.9v1h2.34l-0.48,-1zM169,59v1h4.66l-0.45,-1z"/>
+      
+    <path android:fillColor="#f1453d" android:fillType="evenOdd" android:pathData="m67.97,110.53c-17.54,-10.48 -12.01,-38.57 8.98,-40.36 -17.38,10.23 -17.41,27.09 -8.98,40.36 0,0 -8.43,-13.27 0,0zM112.03,110.53c17.54,-10.48 12.01,-38.57 -8.98,-40.36 17.38,10.23 17.41,27.09 8.98,40.36 0,0 8.43,-13.27 0,0zM90.06,66.08c-3.73,3.76 -10.15,0.02 -7.94,-4.08 3.86,6.18 7.94,1.19 7.94,1.19s4.08,4.99 7.94,-1.19c2.21,4.1 -4.21,7.84 -7.94,4.08 0,0 3.73,3.76 0,0zM87.38,114.87s-6.16,1.75 -14.04,-0.82c6.31,0.48 11.17,-1.48 11.44,-1.6 0,0 -15.44,-7.43 -15.14,-22.57 0.9,-15.31 10.02,-19.97 10.02,-19.97s-16.24,21.14 7.62,38.8l-1.05,-21.85v-16.05c1.35,-0.29 3.83,-2.84 3.83,-2.84s2.48,2.55 3.83,2.84v16.05l-1.05,21.85c23.86,-17.67 7.62,-38.8 7.62,-38.8s9.12,4.66 10.02,19.97c0.3,15.14 -15.14,22.57 -15.14,22.57 1.4,0.63 5.21,1.7 12.03,1.7 -8.32,2.6 -14.64,0.72 -14.64,0.72l-2.68,3.13z"/>
+    
+</vector>

@@ -1,6 +1,9 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.hilt)
+    alias(libs.plugins.kotlin.kapt)
+    alias(libs.plugins.secrets)
 }
 
 android {
@@ -15,6 +18,11 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildFeatures {
+        viewBinding = true
+        buildConfig = true
     }
 
     buildTypes {
@@ -45,4 +53,40 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+
+    //Dagger - Hilt
+    implementation("com.google.dagger:hilt-android:2.51.1")
+    kapt("com.google.dagger:hilt-android-compiler:2.51.1")
+    kapt("androidx.hilt:hilt-compiler:1.0.0")
+
+    // Activity KTX for viewModels()
+    implementation(libs.androidx.activity.ktx)
+
+    // Architectural Components
+    implementation(libs.androidx.lifecycle.viewmodel.ktx)
+
+    // Lifecycle
+    implementation("androidx.lifecycle:lifecycle-extensions:2.2.0")
+    implementation(libs.androidx.lifecycle.livedata.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx)
+    implementation(libs.androidx.lifecycle.runtime.ktx.v286)
+
+    // Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.converter.gson)
+    implementation(libs.okhttp)
+
+    // Coroutines
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.kotlinx.coroutines.android)
+
+    // Coroutine Lifecycle Scopes
+    implementation(libs.androidx.lifecycle.viewmodel.ktx.v220)
+    implementation(libs.androidx.lifecycle.runtime.ktx.v286)
+
+}
+
+// Allow references to generated code
+kapt {
+    correctErrorTypes = true
 }

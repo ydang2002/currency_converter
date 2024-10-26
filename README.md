@@ -16,7 +16,7 @@ Use MVVM architecture because the architecture is flexible, easy to maintain, an
 
 ## 2. Steps to build and run the app:
 1. Register API: Register for the ExchangeRateAPI API.
-2. Add dependencies:  Add necessary dependencies to the project.
+2. Add dependencies:  Add necessary dependencies to the project. Handle invalid input using inputType="numberDecimal"
 3. Set up MVVM structure for the project.
 4. Protect API key: Use secrets-gradle-plugin.
 5. Icon svg: Download country flag icons.

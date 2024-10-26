@@ -24,10 +24,12 @@ Use MVVM architecture because the architecture is flexible, easy to maintain, an
 7. ViewBinding Setup: Using ViewBinding to bind views.
 8. Dagger-Hilt Setup: Setting up the Hilt to manage dependencies.
 9. CurrencyApi Setup: Defining API endpoints.
-10. AppModule Setup: Configuring Hilt modules.
-11. Repository Setup: Managing data and making network requests.
-12. ViewModel Setup: Managing business logic and state.
-13. MainActivity Setup: Managing the user interface and handling events.
+10. List Resource: Generate a file listing the corresponding currency codes and flag resources.
+11. Handling network connection checks.
+12. AppModule Setup: Configuring Hilt modules.
+13. Repository Setup: Managing data and making network requests.
+14. ViewModel Setup: Managing business logic and state.
+15. MainActivity Setup: Managing the user interface and handling events.
 
 ## 3. Link to a video demonstrating the app's key features.
 Link video: https://youtu.be/i3D2rzNH4_U

@@ -84,6 +84,12 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel.ktx.v220)
     implementation(libs.androidx.lifecycle.runtime.ktx.v286)
 
+    // Add necessary testing dependencies:
+    testImplementation ("junit:junit:4.13.2")
+    testImplementation ("io.mockk:mockk:1.13.3")
+    testImplementation ("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+    testImplementation ("androidx.arch.core:core-testing:2.1.0")
+    implementation ("net.bytebuddy:byte-buddy:1.15.7")
 }
 
 // Allow references to generated code

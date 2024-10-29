@@ -30,6 +30,7 @@ Use MVVM architecture because the architecture is flexible, easy to maintain, an
 13. Repository Setup: Managing data and making network requests.
 14. ViewModel Setup: Managing business logic and state.
 15. MainActivity Setup: Managing the user interface and handling events.
+16. Write unit test: unit test currency conversion and network connectivity
 
 ## 3. Link to a video demonstrating the app's key features.
 Link video: https://youtu.be/i3D2rzNH4_U
